@@ -165,17 +165,12 @@ span {
     height: 140px;
     display: flex;
     justify-content: space-around;
-    /* margin-bottom: 70px; */
-    /* border: 2px solid black; */
   }
   .side {
     display: none;
   }
   .info-section {
-    /* border: 2px solid purple; */
-    /* display: none; */
     width: 90%;
-    /* max-width: 90%; */
     padding: 0 0;
     margin: 0 auto;
     margin-top: -65px;
@@ -187,8 +182,6 @@ span {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    /* padding: 0 25px; */
-    /* border: 2px solid red; */
   }
   .steps {
     height: 30px;
@@ -203,8 +196,6 @@ span {
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
   }
   .mob_sub-price {
     display: flex;
@@ -221,13 +212,17 @@ span {
     display: none;
   }
   .nav-btn1 {
-    /* border: 2px solid green; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
     background-color: white;
     width: 99%;
     height: 50px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

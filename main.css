@@ -121,17 +121,12 @@ input {
         height: 170px;
         display: flex;
         justify-content: space-around;
-        /* margin-bottom: 70px; */
-        /* border: 2px solid black; */
     }
     .side{
         display: none;
     }
     .info-section{
-        /* border: 2px solid red; */
-        /* display: none; */
         width: 90%;
-        /* max-width: 90%; */
         padding: 0 0;
         margin: 0 auto;
         margin-top: -85px;
@@ -143,8 +138,6 @@ input {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
-        /* padding: 0 25px; */
-        /* border: 2px solid red; */
       }
       .steps {
         height: 30px;
@@ -163,14 +156,15 @@ input {
         display: none;
     }
     .next-btn1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
         display: inline-block;
-        /* border: 2px solid green; */
         background-color: white;
         width: 99%;
         height: 50px;
         box-sizing: border-box;
         padding: 10px;
         text-align: right;
-        margin-top: 50px;
       }
 }
