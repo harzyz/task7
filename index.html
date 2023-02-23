@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="steps-section">
+        <div class="steps">
+          <a href="index.html"><button class="step-btn">1</button></a>
+
+          <div class="side">
+            <p>STEP 1</p>
+            <h5>YOUR INFO</h5>
+          </div>
+        </div>
+
+        <div class="steps">
+          <a href="selectplan.html"><button class="step-btn">2</button></a>
+
+          <div class="side">
+            <p>STEP 2</p>
+            <h5>SELECT PLAN</h5>
+          </div>
+        </div>
+
+        <div class="steps">
+          <a href="addons.html"><button class="step-btn">3</button></a>
+
+          <div class="side">
+            <p>STEP 3</p>
+            <h5>ADD-ONS</h5>
+          </div>
+        </div>
+
+        <div class="steps">
+          <a href="summary.html"><button class="step-btn">4</button></a>
+
+          <div class="side">
+            <p>STEP 4</p>
+            <h5>SUMMARY</h5>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <div class="sub_info-section">
+          <h1>Personal info</h1>
+          <p>Please provide your name, email address, and phone number.</p>
+
+          <form action="">
+            <label for="name">Name</label> <br />
+            <input type="text" name="name" placeholder="e.g. Stephen King" />
+            <br />
+            <br />
+
+            <label for="email">Email Address</label> <br />
+            <input
+              type="email"
+              name="email"
+              placeholder="e.g. stephenking@lorem.com" />
+            <br />
+            <br />
+
+            <label for="">Phone Number</label> <br />
+            <input
+              type="number"
+              name="phone"
+              placeholder="e.g. +1 234 567 890" />
+          </form>
+
+          <div class="next-btn">
+            <a href="selectplan.html"
+              ><button class="nxt-btn">Next Step</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="next-btn1">
+      <a href="selectplan.html"><button class="nxt-btn">Next Step</button></a>
+    </div>
+  </body>
+</html>

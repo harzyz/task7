@@ -1,0 +1,176 @@
+body {
+    background: #EEF5FF;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wrapper {
+    background: white;
+    display: flex;
+    margin: 100px auto;
+    width: 800px;
+    padding: 10px;
+    height: 430px;
+    border-radius: 8px;
+}
+.steps-section {
+    width: 30%;
+    background-image: url('./assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: auto 430px;
+}
+.steps {
+    display: flex;
+    margin: 20px;
+}
+.side {
+    margin-left: 10px;
+}
+p {
+    margin: 0;
+    font-size: small;
+    color: hsl(231, 11%, 63%);
+}
+h5 {
+    margin: 0;
+    color: white;
+}
+h1 {
+    margin-top: 30px;
+    color: #03295A;
+}
+.step-btn {
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.step-btn:hover {
+    background-color: #BEE1FD;
+}
+.step-btn:focus {
+    outline: none;
+}
+.info-section {
+    width: 70%;
+    padding: 0 50px;
+}
+.sub_info-section {
+    margin: 0 auto;
+    width: 90%;
+}
+form {
+    margin: 25px 0;
+}
+label {
+    color: rgb(21, 21, 143);
+    font-weight: 500;
+}
+input {
+    width: 100%;
+    color: hsl(231, 11%, 63%);
+    height: 25px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid hsl(229, 24%, 87%);
+    cursor: pointer;
+}
+.next-btn {
+    margin-top: 40px;
+    text-align: right;
+}
+.next-btn1 {
+    display: none;
+}
+.nxt-btn {
+    height: 30px;
+    width: 100px;
+    border: 0;
+    color: white;
+    background: #03295A;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nxt-btn:hover {
+    opacity: 0.5;
+}
+.nxt-btn:focus {
+    outline: none;
+}
+@media screen and (max-width:700px) {
+    body {
+        margin: 0;
+    }
+    .wrapper{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background: none;
+        padding: 0;
+    }
+    .steps-section{
+        background-image: url(./assets/images/bg-sidebar-mobile.svg);
+        background-size: 100%;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+        /* margin-bottom: 70px; */
+        /* border: 2px solid black; */
+    }
+    .side{
+        display: none;
+    }
+    .info-section{
+        /* border: 2px solid red; */
+        /* display: none; */
+        width: 90%;
+        /* max-width: 90%; */
+        padding: 0 0;
+        margin: 0 auto;
+        margin-top: -85px;
+        border-radius: 10px;
+        background: white;
+    }
+    .sub_info-section {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        /* padding: 0 25px; */
+        /* border: 2px solid red; */
+      }
+      .steps {
+        height: 30px;
+    }
+    input {
+        width: 90%;
+        color: hsl(231, 11%, 63%);
+        height: 25px;
+        margin: 5px 0;
+        padding: 5px 10px;
+        border-radius: 8px;
+        border: 1px solid hsl(229, 24%, 87%);
+        cursor: pointer;
+    }
+    .next-btn {
+        display: none;
+    }
+    .next-btn1 {
+        display: inline-block;
+        /* border: 2px solid green; */
+        background-color: white;
+        width: 99%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: right;
+        margin-top: 50px;
+      }
+}

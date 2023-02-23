@@ -1,0 +1,212 @@
+body {
+  background: #eef5ff;
+  font-family: "Ubuntu", sans-serif;
+}
+.wrapper {
+  background: white;
+  display: flex;
+  margin: 100px auto;
+  width: 800px;
+  padding: 10px;
+  height: 430px;
+  border-radius: 8px;
+}
+.steps-section {
+  width: 30%;
+  background-image: url("./assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 430px;
+}
+.steps {
+  display: flex;
+  margin: 20px;
+}
+.side {
+  margin-left: 10px;
+}
+p {
+  margin: 0;
+  font-size: small;
+  color: #9699ab;
+}
+h5 {
+  margin: 0;
+  color: white;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.step-btn {
+  height: 30px;
+  width: 30px;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+.step-btn:hover {
+  background-color: #bee1fd;
+}
+.step-btn:focus {
+  outline: none;
+}
+.info-section {
+  width: 70%;
+  padding: 0 50px;
+}
+.sub_info-section {
+  margin: 0 auto;
+  width: 90%;
+}
+h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #03295a;
+}
+.pay-plans {
+  border: 2px solid #d6d9e6;
+  display: flex;
+  margin: 15px 0;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pay-plans:hover {
+  border: 2px solid #03295a;
+}
+.pay-info {
+  margin-left: 15px;
+  width: 200px;
+}
+.pay-price {
+  margin-left: 140px;
+  font-size: 13px;
+  color: #9699ab;
+}
+.nav-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.back-btn {
+  height: 30px;
+  width: 100px;
+  border: 0;
+  color: #9699ab;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+.back-btn:hover {
+  color: #03295a;
+}
+.back-btn:focus {
+  outline: none;
+}
+.nxt-btn {
+  height: 30px;
+  width: 100px;
+  border: 0;
+  color: white;
+  background: #03295a;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+.nxt-btn:hover {
+  opacity: 0.5;
+}
+.nxt-btn:focus {
+  outline: none;
+}
+.nav-btn1 {
+    display: none;
+}
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0px;
+  }
+  .wrapper {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: none;
+    padding: 0;
+  }
+  .steps-section {
+    background-image: url(./assets/images/bg-sidebar-mobile.svg);
+    background-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 70px; */
+    /* border: 2px solid black; */
+  }
+  .side {
+    display: none;
+  }
+  .info-section {
+    /* border: 2px solid purple; */
+    /* display: none; */
+    width: 90%;
+    /* max-width: 90%; */
+    padding: 0 0;
+    margin: 0 auto;
+    margin-top: -85px;
+    border-radius: 10px;
+    background: white;
+  }
+  .sub_info-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    /* padding: 0 25px; */
+    /* border: 2px solid red; */
+  }
+  .steps {
+    height: 30px;
+}
+  .pay-plans {
+    border: 2px solid #d6d9e6;
+    display: flex;
+    margin: 15px auto;
+    width: 90%;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .pay-info {
+    margin-left: 0px;
+    width: 200px;
+  }
+  .pay-price {
+    margin-left: 0;
+    font-size: 13px;
+    color: #9699ab;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-btn1 {
+    /* border: 2px solid green; */
+    background-color: white;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 155px;
+  }
+}
